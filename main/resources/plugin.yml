@@ -1,0 +1,16 @@
+name: FrxdyBingoPlugin
+version: '${project.version}'
+main: de.frxdy.bingo.Bingoplugin
+api-version: 1.19
+authors: [ Frxdyy ]
+description: Bingo plugin
+
+commands:
+  reset:
+    description: reset-Command
+  bingo:
+    description: opens Bingo overview
+  game:
+    description: start | pause | resume game
+  skipItem:
+    description: skip an item in force item battle
